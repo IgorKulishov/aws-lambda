@@ -1,0 +1,16 @@
+{
+  "name": "slspostgresandauthorization",
+  "version": "1.0.1",
+  "description": "lambda functions: postgres crud and authorization",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IK",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.28.6"
+  }
+}
